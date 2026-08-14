@@ -492,12 +492,12 @@ Live examples of each badge at 100%. **One profile per badge** — no repeats. E
 <td align="center" width="50%">
 <strong>Pair Extraordinaire</strong><br>
 <img src="media/badges/pair-extraordinaire.png" width="80" height="80" alt="Pair Extraordinaire"><br>
-<a href="https://github.com/jeallz?achievement=pair-extraordinaire&tab=achievements">@jeallz</a>
+<a href="https://github.com/DenverCoder1?achievement=pair-extraordinaire&tab=achievements">@DenverCoder1</a>
 </td>
 <td align="center" width="50%">
 <strong>Quickdraw</strong><br>
 <img src="media/badges/quickdraw.png" width="80" height="80" alt="Quickdraw"><br>
-<a href="https://github.com/JohnMwendwa?achievement=quickdraw&tab=achievements">@JohnMwendwa</a>
+<a href="https://github.com/Schweinepriester?achievement=quickdraw&tab=achievements">@Schweinepriester</a>
 </td>
 </tr>
 <tr>
@@ -509,7 +509,7 @@ Live examples of each badge at 100%. **One profile per badge** — no repeats. E
 <td align="center">
 <strong>Galaxy Brain</strong><br>
 <img src="media/badges/galaxy-brain.png" width="80" height="80" alt="Galaxy Brain"><br>
-<a href="https://github.com/artembilan?achievement=galaxy-brain&tab=achievements">@artembilan</a>
+<a href="https://github.com/DenverCoder1?tab=achievements&achievement=galaxy-brain">@DenverCoder1</a>
 </td>
 </tr>
 <tr>
@@ -521,14 +521,14 @@ Live examples of each badge at 100%. **One profile per badge** — no repeats. E
 <td align="center">
 <strong>YOLO</strong><br>
 <img src="media/badges/yolo.png" width="80" height="80" alt="YOLO"><br>
-<a href="https://github.com/BEPb?achievement=yolo&tab=achievements">@BEPb</a>
+<a href="https://github.com/driesvints?achievement=yolo&tab=achievements">@driesvints</a>
 </td>
 </tr>
 <tr>
 <td align="center">
 <strong>Public Sponsor</strong><br>
 <img src="media/badges/public-sponsor.png" width="80" height="80" alt="Public Sponsor"><br>
-<a href="https://github.com/IDouble?tab=achievements&achievement=public-sponsor">@IDouble</a>
+<a href="https://github.com/christianalberto?achievement=public-sponsor&tab=achievements">@christianalberto</a>
 </td>
 <td align="center">
 <strong>Arctic Code Vault</strong><br>
@@ -540,7 +540,7 @@ Live examples of each badge at 100%. **One profile per badge** — no repeats. E
 <td align="center">
 <strong>Mars 2020 Contributor</strong><br>
 <img src="media/badges/mars-2020.png" width="80" height="80" alt="Mars 2020"><br>
-<a href="https://github.com/wilsonge?achievement=mars-2020-contributor&tab=achievements">@wilsonge</a>
+<a href="https://github.com/torvalds?achievement=mars-2020-contributor&tab=achievements">@torvalds</a>
 </td>
 <td align="center">
 <strong>Proxima Pioneer</strong> · internal<br>
