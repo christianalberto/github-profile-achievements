@@ -491,73 +491,72 @@ Live examples of each badge at 100%. **One profile per badge** — no repeats. E
 <tr>
 <td align="center" width="50%">
 <strong>Pair Extraordinaire</strong><br>
-<img src="media/badges/pair-extraordinaire.png" width="80" height="80" alt="Pair Extraordinaire"><br>
+<a href="https://github.com/DenverCoder1?achievement=pair-extraordinaire&tab=achievements"><img src="media/badges/pair-extraordinaire.png" width="80" height="80" alt="Pair Extraordinaire"></a><br>
 <a href="https://github.com/DenverCoder1?achievement=pair-extraordinaire&tab=achievements">@DenverCoder1</a>
 </td>
 <td align="center" width="50%">
 <strong>Quickdraw</strong><br>
-<img src="media/badges/quickdraw.png" width="80" height="80" alt="Quickdraw"><br>
+<a href="https://github.com/anuraghazra?tab=achievements&achievement=quickdraw"><img src="media/badges/quickdraw.png" width="80" height="80" alt="Quickdraw"></a><br>
 <a href="https://github.com/anuraghazra?tab=achievements&achievement=quickdraw">@anuraghazra</a>
 </td>
 </tr>
 <tr>
 <td align="center">
 <strong>Starstruck</strong><br>
-<img src="media/badges/starstruck.png" width="80" height="80" alt="Starstruck"><br>
+<a href="https://github.com/anuraghazra?achievement=starstruck&tab=achievements"><img src="media/badges/starstruck.png" width="80" height="80" alt="Starstruck"></a><br>
 <a href="https://github.com/anuraghazra?achievement=starstruck&tab=achievements">@anuraghazra</a>
 </td>
 <td align="center">
 <strong>Galaxy Brain</strong><br>
-<img src="media/badges/galaxy-brain.png" width="80" height="80" alt="Galaxy Brain"><br>
+<a href="https://github.com/DenverCoder1?tab=achievements&achievement=galaxy-brain"><img src="media/badges/galaxy-brain.png" width="80" height="80" alt="Galaxy Brain"></a><br>
 <a href="https://github.com/DenverCoder1?tab=achievements&achievement=galaxy-brain">@DenverCoder1</a>
 </td>
 </tr>
 <tr>
 <td align="center">
 <strong>Pull Shark</strong><br>
-<img src="media/badges/pull-shark.png" width="80" height="80" alt="Pull Shark"><br>
+<a href="https://github.com/ljharb?achievement=pull-shark&tab=achievements"><img src="media/badges/pull-shark.png" width="80" height="80" alt="Pull Shark"></a><br>
 <a href="https://github.com/ljharb?achievement=pull-shark&tab=achievements">@ljharb</a>
 </td>
 <td align="center">
 <strong>YOLO</strong><br>
-<img src="media/badges/yolo.png" width="80" height="80" alt="YOLO"><br>
+<a href="https://github.com/driesvints?achievement=yolo&tab=achievements"><img src="media/badges/yolo.png" width="80" height="80" alt="YOLO"></a><br>
 <a href="https://github.com/driesvints?achievement=yolo&tab=achievements">@driesvints</a>
 </td>
 </tr>
 <tr>
 <td align="center">
 <strong>Public Sponsor</strong><br>
-<img src="media/badges/public-sponsor.png" width="80" height="80" alt="Public Sponsor"><br>
+<a href="https://github.com/christianalberto?achievement=public-sponsor&tab=achievements"><img src="media/badges/public-sponsor.png" width="80" height="80" alt="Public Sponsor"></a><br>
 <a href="https://github.com/christianalberto?achievement=public-sponsor&tab=achievements">@christianalberto</a>
 </td>
 <td align="center">
 <strong>Arctic Code Vault</strong><br>
-<img src="media/badges/arctic-code-vault.png" width="80" height="80" alt="Arctic Code Vault"><br>
+<a href="https://github.com/ryo-ma?tab=achievements&achievement=arctic-code-vault-contributor"><img src="media/badges/arctic-code-vault.png" width="80" height="80" alt="Arctic Code Vault"></a><br>
 <a href="https://github.com/ryo-ma?tab=achievements&achievement=arctic-code-vault-contributor">@ryo-ma</a>
 </td>
 </tr>
 <tr>
 <td align="center">
 <strong>Mars 2020 Contributor</strong><br>
-<img src="media/badges/mars-2020.png" width="80" height="80" alt="Mars 2020"><br>
+<a href="https://github.com/torvalds?achievement=mars-2020-contributor&tab=achievements"><img src="media/badges/mars-2020.png" width="80" height="80" alt="Mars 2020"></a><br>
 <a href="https://github.com/torvalds?achievement=mars-2020-contributor&tab=achievements">@torvalds</a>
 </td>
 <td align="center">
 <strong>Proxima Pioneer</strong> · internal<br>
-<img src="media/badges/proxima-pioneer.png" width="80" height="80" alt="Proxima Pioneer"><br>
+<a href="https://github.com/brannon?achievement=proxima-pioneer&tab=achievements"><img src="media/badges/proxima-pioneer.png" width="80" height="80" alt="Proxima Pioneer"></a><br>
 <a href="https://github.com/brannon?achievement=proxima-pioneer&tab=achievements">@brannon</a>
 </td>
 </tr>
 <tr>
 <td align="center">
 <strong>Proxima Staffshipper</strong> · internal<br>
-<img src="media/badges/proxima-staffshipper.png" width="80" height="80" alt="Proxima Staffshipper"><br>
+<a href="https://github.com/brannon?achievement=proxima-staffshipper&tab=achievements"><img src="media/badges/proxima-staffshipper.png" width="80" height="80" alt="Proxima Staffshipper"></a><br>
 <a href="https://github.com/brannon?achievement=proxima-staffshipper&tab=achievements">@brannon</a><br>
-<em>Only staff profile on this list with Pioneer + Staffshipper.</em>
 </td>
 <td align="center">
 <strong>Proxima Staffuser</strong> · internal<br>
-<img src="media/badges/proxima-staffuser.png" width="80" height="80" alt="Proxima Staffuser"><br>
+<a href="https://github.com/timrogers?achievement=proxima-staffuser&tab=achievements"><img src="media/badges/proxima-staffuser.png" width="80" height="80" alt="Proxima Staffuser"></a><br>
 <a href="https://github.com/timrogers?achievement=proxima-staffuser&tab=achievements">@timrogers</a>
 </td>
 </tr>
