@@ -497,7 +497,7 @@ Live examples of each badge at 100%. **One profile per badge** — no repeats. E
 <td align="center" width="50%">
 <strong>Quickdraw</strong><br>
 <img src="media/badges/quickdraw.png" width="80" height="80" alt="Quickdraw"><br>
-<a href="https://github.com/Schweinepriester?achievement=quickdraw&tab=achievements">@Schweinepriester</a>
+<a href="https://github.com/anuraghazra?tab=achievements&achievement=quickdraw">@anuraghazra</a>
 </td>
 </tr>
 <tr>
