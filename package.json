@@ -1,0 +1,9 @@
+{
+  "name": "github-profile-achievements",
+  "private": true,
+  "scripts": {
+    "preview": "npx serve . -p 4173",
+    "start": "npx serve . -p 4173",
+    "web": "npx serve . -p 4173"
+  }
+}
