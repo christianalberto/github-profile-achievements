@@ -3,26 +3,116 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="GitHub Profile Achievements — the complete unofficial catalog of every badge, tier, highlight, and retired design." />
-  <meta name="theme-color" content="#0b0f19" />
-  <meta property="og:title" content="GitHub Profile Achievements" />
-  <meta property="og:description" content="Every badge, every tier, every highlight, every retired design." />
-  <meta property="og:type" content="website" />
-  <link rel="icon" href="media/brand/fluidicon.png" />
   <title>GitHub Profile Achievements · Complete Catalog</title>
+  <meta name="description" content="GitHub Profile Achievements — the complete unofficial catalog of every badge, tier, highlight, and retired design." />
+  <meta name="author" content="christianalberto" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#0b0f19" />
+  <meta name="color-scheme" content="dark light" />
+  <link rel="canonical" href="https://github-profile-achievements.vercel.app/" />
+  <script>
+    (() => {
+      try {
+        const saved = localStorage.getItem("gpa-theme");
+        const theme = saved === "light" || saved === "dark" ? saved : "dark";
+        document.documentElement.setAttribute("data-theme", theme);
+        document.documentElement.style.colorScheme = theme;
+      } catch (_) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    })();
+  </script>
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="GitHub Profile Achievements" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:url" content="https://github-profile-achievements.vercel.app/" />
+  <meta property="og:title" content="GitHub Profile Achievements · Complete Catalog" />
+  <meta property="og:description" content="Every badge, every tier, every highlight, every retired design. Community-verified criteria for GitHub profile achievements." />
+  <meta property="og:image" content="https://github-profile-achievements.vercel.app/media/brand/og-cover.png" />
+  <meta property="og:image:alt" content="GitHub Profile Achievements — unofficial catalog of badges and tiers" />
+  <meta property="og:image:width" content="1536" />
+  <meta property="og:image:height" content="1024" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="GitHub Profile Achievements · Complete Catalog" />
+  <meta name="twitter:description" content="Every badge, every tier, every highlight, every retired design." />
+  <meta name="twitter:image" content="https://github-profile-achievements.vercel.app/media/brand/og-cover.png" />
+  <meta name="twitter:image:alt" content="GitHub Profile Achievements — unofficial catalog of badges and tiers" />
+
+  <link rel="icon" href="media/brand/fluidicon.png" type="image/png" />
+  <link rel="apple-touch-icon" href="media/brand/fluidicon.png" />
   <link rel="stylesheet" href="assets/styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://github-profile-achievements.vercel.app/#website",
+        "url": "https://github-profile-achievements.vercel.app/",
+        "name": "GitHub Profile Achievements",
+        "description": "The complete unofficial catalog of every GitHub profile achievement badge, tier, highlight, and retired design.",
+        "inLanguage": "en",
+        "publisher": {
+          "@type": "Person",
+          "@id": "https://github.com/christianalberto#person",
+          "name": "christianalberto",
+          "url": "https://github.com/christianalberto"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://github-profile-achievements.vercel.app/#webpage",
+        "url": "https://github-profile-achievements.vercel.app/",
+        "name": "GitHub Profile Achievements · Complete Catalog",
+        "isPartOf": { "@id": "https://github-profile-achievements.vercel.app/#website" },
+        "about": {
+          "@type": "Thing",
+          "name": "GitHub Profile Achievements"
+        },
+        "description": "Community reference for GitHub profile achievement criteria, tiers, skin tones, staff badges, and historic designs.",
+        "inLanguage": "en",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://github-profile-achievements.vercel.app/media/brand/og-cover.png"
+        }
+      },
+      {
+        "@type": "SoftwareSourceCode",
+        "name": "github-profile-achievements",
+        "codeRepository": "https://github.com/christianalberto/github-profile-achievements",
+        "url": "https://github.com/christianalberto/github-profile-achievements",
+        "programmingLanguage": "HTML",
+        "author": {
+          "@type": "Person",
+          "name": "christianalberto",
+          "url": "https://github.com/christianalberto"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <header class="site-nav">
     <div class="container">
       <a class="brand" href="#top">
-        <img src="media/brand/octocat.svg" alt="" />
+        <img class="brand-mark" src="media/brand/mark.svg" alt="" width="34" height="34" />
         <span>Profile Achievements</span>
       </a>
 
-      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/></svg>
-      </button>
+      <div class="nav-actions">
+        <button class="theme-toggle" type="button" aria-label="Switch to light theme" title="Toggle theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4.5a1 1 0 0 1 1 1V7a1 1 0 1 1-2 0V5.5a1 1 0 0 1 1-1zm0 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zm7.5-2.5a1 1 0 1 1 0-2H21a1 1 0 1 1 0 2h-1.5zM3 13a1 1 0 1 1 0-2h1.5a1 1 0 1 1 0 2H3zm14.95 5.45a1 1 0 0 1-1.4 1.4l-1.06-1.06a1 1 0 1 1 1.4-1.4l1.06 1.06zM8.51 6.21a1 1 0 0 1-1.4-1.4l1.06-1.06a1 1 0 0 1 1.4 1.4L8.51 6.21zM6.21 15.49a1 1 0 0 1-1.4 1.4l-1.06-1.06a1 1 0 1 1 1.4-1.4l1.06 1.06zm12.04-10.74a1 1 0 0 1 0 1.4l-1.06 1.06a1 1 0 1 1-1.4-1.4l1.06-1.06a1 1 0 0 1 1.4 0zM12 17a1 1 0 0 1 1 1v1.5a1 1 0 1 1-2 0V18a1 1 0 0 1 1-1z"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 14.3A9 9 0 0 1 9.7 3a7.5 7.5 0 1 0 11.3 11.3z"/></svg>
+        </button>
+
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/></svg>
+        </button>
+      </div>
 
       <nav id="site-menu" class="nav-links" aria-label="Primary">
         <a href="#how-it-works">How it works</a>

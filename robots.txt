@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://github-profile-achievements.vercel.app/sitemap.xml

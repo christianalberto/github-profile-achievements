@@ -1,10 +1,47 @@
 (() => {
+  const root = document.documentElement;
+  const themeToggle = document.querySelector(".theme-toggle");
+  const themeMeta = document.querySelector('meta[name="theme-color"]');
   const toggle = document.querySelector(".nav-toggle");
   const menu = document.querySelector("#site-menu");
   const links = menu ? [...menu.querySelectorAll('a[href^="#"]')] : [];
   const sections = links
     .map((link) => document.querySelector(link.getAttribute("href")))
     .filter(Boolean);
+
+  const themeColors = {
+    dark: "#0b0f19",
+    light: "#f4f7fb",
+  };
+
+  const getTheme = () =>
+    root.getAttribute("data-theme") === "light" ? "light" : "dark";
+
+  const applyTheme = (theme) => {
+    const next = theme === "light" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    root.style.colorScheme = next;
+    try {
+      localStorage.setItem("gpa-theme", next);
+    } catch (_) {
+      /* ignore */
+    }
+    if (themeMeta) themeMeta.setAttribute("content", themeColors[next]);
+    if (themeToggle) {
+      themeToggle.setAttribute(
+        "aria-label",
+        next === "dark" ? "Switch to light theme" : "Switch to dark theme"
+      );
+    }
+  };
+
+  applyTheme(getTheme());
+
+  if (themeToggle) {
+    themeToggle.addEventListener("click", () => {
+      applyTheme(getTheme() === "dark" ? "light" : "dark");
+    });
+  }
 
   const closeMenu = () => {
     if (!menu || !toggle) return;
@@ -36,7 +73,13 @@
 
     document.addEventListener("click", (event) => {
       if (!menu.classList.contains("is-open")) return;
-      if (menu.contains(event.target) || toggle.contains(event.target)) return;
+      if (
+        menu.contains(event.target) ||
+        toggle.contains(event.target) ||
+        (themeToggle && themeToggle.contains(event.target))
+      ) {
+        return;
+      }
       closeMenu();
     });
   }
