@@ -508,8 +508,8 @@ Live examples of each badge at 100%. **One profile per badge** — no repeats. E
 </td>
 <td align="center">
 <strong>Galaxy Brain</strong><br>
-<a href="https://github.com/DenverCoder1?tab=achievements&achievement=galaxy-brain"><img src="media/badges/galaxy-brain.png" width="80" height="80" alt="Galaxy Brain"></a><br>
-<a href="https://github.com/DenverCoder1?tab=achievements&achievement=galaxy-brain">@DenverCoder1</a>
+<a href="https://github.com/jxom?tab=achievements&achievement=galaxy-brain"><img src="media/badges/galaxy-brain.png" width="80" height="80" alt="Galaxy Brain"></a><br>
+<a href="https://github.com/jxom?tab=achievements&achievement=galaxy-brain">@jxom</a>
 </td>
 </tr>
 <tr>
