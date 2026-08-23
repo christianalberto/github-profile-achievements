@@ -6,7 +6,7 @@
 
 **The complete unofficial catalog** — every badge, every tier, every highlight, every retired design.
 
-[How it works](#how-it-works) · [Active](#active) · [GitHub staff](#github-staff) · [Retired](#retired) · [Unreleased](#unreleased) · [Tiers](#tiers) · [Highlights](#highlights) · [Follow the news](#follow-the-news)
+[How it works](#how-it-works) · [Active](#active) · [GitHub staff](#github-staff) · [Retired](#retired) · [Unreleased](#unreleased) · [Tiers](#tiers) · [Highlights](#highlights) · [Fast guide](FAST_GUIDE.md) · [Follow the news](#follow-the-news)
 
 <p>
   <img src="media/badges/pair-extraordinaire.png" width="80" height="80" alt="Pair Extraordinaire">
@@ -565,6 +565,16 @@ Live examples of each badge at 100%. **One profile per badge** — no repeats. E
 </td>
 </tr>
 </table>
+
+## 🏆 Fast & Transparent Guide to Unlocking 100% of GitHub Achievements
+
+Want the badges without the spam? This companion guide is an honest playbook for unlocking every **active** achievement through real contributions — personal open-source work, legitimate collaboration, Discussions that actually help people, and sponsorship that supports maintainers you rely on. No empty PRs, no puppet accounts, no gaming recruiters.
+
+It covers the work-vs-personal-profile dilemma, why fake progress backfires, how tier multipliers really display, and a clean path for each badge (Quickdraw, Galaxy Brain, YOLO, Pair Extraordinaire, Public Sponsor, Pull Shark, Starstruck).
+
+**[Read the full guide →](FAST_GUIDE.md)**
+
+---
 
 ## Historic designs
 

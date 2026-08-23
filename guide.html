@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fast & Transparent Guide · GitHub Profile Achievements</title>
+  <meta name="description" content="An honest playbook for unlocking every active GitHub profile achievement through real contributions — no spam, no puppet accounts." />
+  <meta name="author" content="christianalberto" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#0b0f19" />
+  <meta name="color-scheme" content="dark light" />
+  <link rel="canonical" href="https://github-profile-achievements.vercel.app/guide" />
+  <script>
+    (() => {
+      try {
+        const saved = localStorage.getItem("gpa-theme");
+        const theme = saved === "light" || saved === "dark" ? saved : "dark";
+        document.documentElement.setAttribute("data-theme", theme);
+        document.documentElement.style.colorScheme = theme;
+      } catch (_) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    })();
+  </script>
+
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="GitHub Profile Achievements" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:url" content="https://github-profile-achievements.vercel.app/guide" />
+  <meta property="og:title" content="Fast & Transparent Guide · Unlock GitHub Achievements" />
+  <meta property="og:description" content="Authentic strategies for every active badge — without spam or gaming the system." />
+  <meta property="og:image" content="https://github-profile-achievements.vercel.app/media/brand/og-cover.png" />
+  <meta property="og:image:alt" content="GitHub Profile Achievements — fast transparent unlock guide" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Fast & Transparent Guide · Unlock GitHub Achievements" />
+  <meta name="twitter:description" content="Authentic strategies for every active badge — without spam or gaming the system." />
+  <meta name="twitter:image" content="https://github-profile-achievements.vercel.app/media/brand/og-cover.png" />
+
+  <link rel="icon" href="media/brand/fluidicon.png" type="image/png" />
+  <link rel="apple-touch-icon" href="media/brand/fluidicon.png" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body class="page-guide">
+  <header class="site-nav">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <img class="brand-mark" src="media/brand/mark.svg" alt="" width="34" height="34" />
+        <span>Profile Achievements</span>
+      </a>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" type="button" aria-label="Switch to light theme" title="Toggle theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4.5a1 1 0 0 1 1 1V7a1 1 0 1 1-2 0V5.5a1 1 0 0 1 1-1zm0 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zm7.5-2.5a1 1 0 1 1 0-2H21a1 1 0 1 1 0 2h-1.5zM3 13a1 1 0 1 1 0-2h1.5a1 1 0 1 1 0 2H3zm14.95 5.45a1 1 0 0 1-1.4 1.4l-1.06-1.06a1 1 0 1 1 1.4-1.4l1.06 1.06zM8.51 6.21a1 1 0 0 1-1.4-1.4l1.06-1.06a1 1 0 0 1 1.4 1.4L8.51 6.21zM6.21 15.49a1 1 0 0 1-1.4 1.4l-1.06-1.06a1 1 0 1 1 1.4-1.4l1.06 1.06zm12.04-10.74a1 1 0 0 1 0 1.4l-1.06 1.06a1 1 0 1 1-1.4-1.4l1.06-1.06a1 1 0 0 1 1.4 0zM12 17a1 1 0 0 1 1 1v1.5a1 1 0 1 1-2 0V18a1 1 0 0 1 1-1z"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 14.3A9 9 0 0 1 9.7 3a7.5 7.5 0 1 0 11.3 11.3z"/></svg>
+        </button>
+
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/></svg>
+        </button>
+      </div>
+
+      <nav id="site-menu" class="nav-links" aria-label="Primary">
+        <a href="index.html">Catalog</a>
+        <a href="#mindset">Mindset</a>
+        <a href="#achievements">Achievements</a>
+        <a class="is-active" href="guide.html" aria-current="page">Guide</a>
+        <a class="nav-cta" href="https://github.com/christianalberto/github-profile-achievements/blob/main/FAST_GUIDE.md" target="_blank" rel="noopener">View on GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero hero--guide">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Playbook · Ethical unlocks only</div>
+          <h1>Unlock every badge <em>without the spam</em>.</h1>
+          <p class="hero-lead">
+            An honest guide to earning 100% of active GitHub achievements through real work —
+            personal open-source projects, genuine collaboration, and contributions that hold up under recruiter scrutiny.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#achievements">Jump to achievements</a>
+            <a class="btn btn-ghost" href="index.html#active">Browse the catalog</a>
+          </div>
+        </div>
+        <div class="hero-showcase" aria-hidden="true">
+          <div class="badge-orbit badge-orbit--compact">
+            <img src="media/badges/quickdraw.png" alt="" />
+            <img src="media/badges/galaxy-brain.png" alt="" />
+            <img src="media/badges/yolo.png" alt="" />
+            <img src="media/badges/pair-extraordinaire.png" alt="" />
+            <img src="media/badges/public-sponsor.png" alt="" />
+            <img src="media/badges/pull-shark.png" alt="" />
+            <img src="media/badges/starstruck.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <p class="notice">
+        <span class="notice-label">Ethic</span>
+        Every strategy below is built around real contributions. Your graph is public — badges should prove competence, not that you found a loophole.
+      </p>
+    </div>
+
+    <section id="mindset" class="section">
+      <div class="container guide-narrow">
+        <div class="section-head">
+          <div>
+            <h2>Mindset first</h2>
+            <p>Before grinding badges, understand why personal profiles stay empty — and why shortcuts backfire.</p>
+          </div>
+        </div>
+
+        <div class="guide-block">
+          <h3>The core dilemma</h3>
+          <p class="guide-kicker">Your work GitHub ≠ your personal profile</p>
+          <blockquote class="guide-quote">
+            The vast majority of software engineers write code under corporate organization accounts every day.
+          </blockquote>
+          <ul class="guide-list">
+            <li>Commits, pull requests, and reviews stay inside <strong>private organizations</strong>.</li>
+            <li>Your <strong>personal profile</strong> looks inactive.</li>
+            <li>Achievements stay locked — not because you are unproductive, but because of enterprise permissions.</li>
+          </ul>
+          <div class="callout callout-tip">
+            <strong>Pro tip</strong>
+            <p>Occasionally negotiate with your employer to contribute using your personal GitHub handle. If you have that option, take it — most developers do not.</p>
+          </div>
+        </div>
+
+        <div class="guide-block">
+          <h3>Dishonest shortcuts</h3>
+          <p class="guide-kicker">Why gaming the system is counterproductive</p>
+          <p>Empty PRs, fake discussions, self-starring repos, puppet accounts — they exist. This guide ignores them on purpose.</p>
+          <ul class="guide-list">
+            <li>Your contribution graph and badge history are completely <strong>public</strong>.</li>
+            <li>Recruiters, managers, and peers can review your activity in minutes.</li>
+            <li>Inflated profiles are easy to spot — and they hurt credibility.</li>
+          </ul>
+          <div class="callout callout-warn">
+            <strong>Red flag</strong>
+            <p>An artificially inflated profile raises immediate questions. Spam when legitimate paths exist shows poor professional judgment.</p>
+          </div>
+        </div>
+
+        <div class="guide-block">
+          <h3>The right way to progress</h3>
+          <p>Drive real impact through your <strong>personal account</strong> — ideally by building your own open-source projects. You do not need the next groundbreaking framework.</p>
+          <div class="idea-grid">
+            <article class="idea-card">
+              <h4>Portfolio template</h4>
+              <p>Build with a colleague — real PRs, reviews, and co-authors.</p>
+            </article>
+            <article class="idea-card">
+              <h4>Utility package</h4>
+              <p>Scripts you already use. Steady commits and incremental releases.</p>
+            </article>
+            <article class="idea-card">
+              <h4>Learning notes</h4>
+              <p>Structured docs on technologies you are mastering — plus Discussions.</p>
+            </article>
+            <article class="idea-card">
+              <h4>CLI / boilerplate</h4>
+              <p>Automate repetitive setup. Atomic PRs that are easy to review.</p>
+            </article>
+          </div>
+          <ol class="steps">
+            <li>Push commits on a regular schedule.</li>
+            <li>Structure features as Pull Requests.</li>
+            <li>Use Discussions for decisions and Q&amp;A.</li>
+            <li>Ship incremental improvements over time.</li>
+          </ol>
+          <div class="callout callout-warn">
+            <strong>Security first</strong>
+            <p>Protect primary branches, limit write access to trusted collaborators, and keep automated spam out of the workspace. A secure repo is a sustainable repo.</p>
+          </div>
+        </div>
+
+        <div class="guide-block">
+          <h3>How tiers actually display</h3>
+          <blockquote class="guide-quote">
+            GitHub badges do <strong>not</strong> show your exact total. They only reflect the <strong>current tier</strong> you have reached.
+          </blockquote>
+          <p>Example: <code>Pull Shark x2</code> means you unlocked the second tier — not that you only merged two PRs.</p>
+          <p>That removes the urge to fabricate activity “just to check if it registered.” Exact thresholds live in the <a href="index.html#tiers">catalog tiers</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Achievements</h2>
+            <p>Legitimate paths for each active badge — with the artwork from the catalog.</p>
+          </div>
+          <span class="pill pill-active">7 active</span>
+        </div>
+
+        <div class="guide-toc" aria-label="Achievement jump links">
+          <a href="#quickdraw"><img src="media/badges/quickdraw.png" alt="" width="40" height="40" /><span>Quickdraw</span></a>
+          <a href="#galaxy-brain"><img src="media/badges/galaxy-brain.png" alt="" width="40" height="40" /><span>Galaxy Brain</span></a>
+          <a href="#yolo"><img src="media/badges/yolo.png" alt="" width="40" height="40" /><span>YOLO</span></a>
+          <a href="#pair-extraordinaire"><img src="media/badges/pair-extraordinaire.png" alt="" width="40" height="40" /><span>Pair Extraordinaire</span></a>
+          <a href="#public-sponsor"><img src="media/badges/public-sponsor.png" alt="" width="40" height="40" /><span>Public Sponsor</span></a>
+          <a href="#pull-shark"><img src="media/badges/pull-shark.png" alt="" width="40" height="40" /><span>Pull Shark</span></a>
+          <a href="#starstruck"><img src="media/badges/starstruck.png" alt="" width="40" height="40" /><span>Starstruck</span></a>
+        </div>
+
+        <article id="quickdraw" class="achievement-panel">
+          <div class="achievement-panel__media">
+            <img src="media/badges/quickdraw.png" width="140" height="140" alt="Quickdraw" />
+          </div>
+          <div class="achievement-panel__body">
+            <h3>Quickdraw</h3>
+            <p class="achievement-criteria">Close an issue or pull request within <strong>5 minutes</strong> of opening it.</p>
+            <p>More of a platform quirk than a technical milestone — but it still belongs on a complete showcase.</p>
+            <ol class="steps">
+              <li>Open a Pull Request as part of normal work.</li>
+              <li>Close it immediately afterward (or reopen/close during a legitimate workflow).</li>
+            </ol>
+            <div class="callout callout-warn">
+              <strong>Avoid junk PRs</strong>
+              <p>Closing and reopening a real PR in your standard process triggers the badge without polluting history.</p>
+            </div>
+          </div>
+        </article>
+
+        <article id="galaxy-brain" class="achievement-panel">
+          <div class="achievement-panel__media">
+            <img src="media/badges/galaxy-brain.png" width="140" height="140" alt="Galaxy Brain" />
+          </div>
+          <div class="achievement-panel__body">
+            <h3>Galaxy Brain</h3>
+            <p class="achievement-criteria">Have your answer marked as the accepted solution in <strong>GitHub Discussions</strong>.</p>
+            <p>Working inside your own open-source repo is valid — and it improves documentation, decision logs, and team alignment.</p>
+            <div class="callout callout-tip">
+              <strong>Common obstacle</strong>
+              <p>People forget to mark answers as accepted. Use a controlled setup with peers who have real questions.</p>
+            </div>
+            <h4>Approach 1 — Real queries in your network</h4>
+            <ol class="steps">
+              <li>Find public repos in your stack with Discussions enabled.</li>
+              <li>When a colleague hits a real problem you can solve, help them document it.</li>
+              <li>Have them post the question and mark your answer as the official fix.</li>
+            </ol>
+            <h4>Approach 2 — Architecture debates in Discussions</h4>
+            <ol class="steps">
+              <li>Enable Discussions in repository settings.</li>
+              <li>Open a public thread when an architectural debate arises.</li>
+              <li>Provide structured arguments and code snippets.</li>
+              <li>Mark the final resolution to close the thread.</li>
+            </ol>
+            <p class="muted-note">Galaxy Brain no longer earns inside GitHub Community. <strong>Repository</strong> Discussions still count.</p>
+          </div>
+        </article>
+
+        <article id="yolo" class="achievement-panel">
+          <div class="achievement-panel__media">
+            <img src="media/badges/yolo.png" width="140" height="140" alt="YOLO" />
+          </div>
+          <div class="achievement-panel__body">
+            <h3>YOLO</h3>
+            <p class="achievement-criteria">Merge a self-authored Pull Request <strong>without</strong> requiring a review.</p>
+            <p>One unlock is enough. Keep the change small and low-risk in <strong>your</strong> repository:</p>
+            <ul class="guide-list">
+              <li>A linter or formatting fix</li>
+              <li>A one-line docs update</li>
+              <li>A minor <code>README.md</code> tweak</li>
+              <li>The initial repository setup commit</li>
+            </ul>
+            <ol class="steps">
+              <li>Apply the change.</li>
+              <li>Open a Pull Request.</li>
+              <li>Merge it directly without requesting approval.</li>
+            </ol>
+            <div class="callout callout-warn">
+              <strong>Never YOLO in production</strong>
+              <p>Reserve this for first commits or minor documentation edits in a personal workspace.</p>
+            </div>
+          </div>
+        </article>
+
+        <article id="pair-extraordinaire" class="achievement-panel">
+          <div class="achievement-panel__media">
+            <img src="media/badges/pair-extraordinaire.png" width="140" height="140" alt="Pair Extraordinaire" />
+          </div>
+          <div class="achievement-panel__body">
+            <h3>Pair Extraordinaire</h3>
+            <p class="achievement-criteria">Merge a Pull Request that includes at least one <strong>co-authored</strong> commit.</p>
+            <ol class="steps">
+              <li>Partner with a collaborator on a feature or bug fix.</li>
+              <li>Add the trailer at the end of the commit message:
+                <pre class="code-block">Co-authored-by: username &lt;username@example.com&gt;</pre>
+              </li>
+              <li>Open the PR and merge it.</li>
+            </ol>
+            <div class="callout callout-tip">
+              <strong>Synergy</strong>
+              <p>When your teammate merges the PR, they also progress toward <strong>Pull Shark</strong>. Configure a commit template so the trailer never has syntax errors.</p>
+            </div>
+          </div>
+        </article>
+
+        <article id="public-sponsor" class="achievement-panel">
+          <div class="achievement-panel__media">
+            <img src="media/badges/public-sponsor.png" width="140" height="140" alt="Public Sponsor" />
+          </div>
+          <div class="achievement-panel__body">
+            <h3>Public Sponsor</h3>
+            <p class="achievement-criteria">Support the ecosystem you rely on via <strong>GitHub Sponsors</strong>.</p>
+            <p>Sponsor a core dependency, a tool that saved you hours, or a maintainer whose work you admire. Even a micro-sponsorship shows appreciation and supports sustainable open source.</p>
+          </div>
+        </article>
+
+        <article id="pull-shark" class="achievement-panel">
+          <div class="achievement-panel__media">
+            <img src="media/badges/pull-shark.png" width="140" height="140" alt="Pull Shark" />
+          </div>
+          <div class="achievement-panel__body">
+            <h3>Pull Shark</h3>
+            <p class="achievement-criteria">Have your Pull Request reviewed and <strong>merged by another contributor</strong>.</p>
+            <p>Sustain development in a personal project. Submit well-scoped PRs. Let collaborators review and integrate them.</p>
+            <div class="callout callout-tip">
+              <strong>Best practice</strong>
+              <p>Keep PRs atomic. Alternate author and reviewer roles with a teammate to progress on <strong>Pair Extraordinaire</strong> and <strong>Pull Shark</strong> together.</p>
+            </div>
+            <p class="muted-note">Tier thresholds: see <a href="index.html#tiers">Pull Shark in the catalog</a>.</p>
+          </div>
+        </article>
+
+        <article id="starstruck" class="achievement-panel">
+          <div class="achievement-panel__media">
+            <img src="media/badges/starstruck.png" width="140" height="140" alt="Starstruck" />
+          </div>
+          <div class="achievement-panel__body">
+            <h3>Starstruck</h3>
+            <p class="achievement-criteria">Maintain a repository that collects a significant number of <strong>stars</strong>.</p>
+            <p>No honest shortcuts — solve a real problem and deliver tangible value.</p>
+            <div class="idea-grid">
+              <article class="idea-card">
+                <h4>Ship a package</h4>
+                <p>Identify a clear pain point and build a robust library around it.</p>
+              </article>
+              <article class="idea-card">
+                <h4>Curate a resource</h4>
+                <p>Guide, boilerplate, CLI, or awesome-list that developers actually bookmark.</p>
+              </article>
+            </div>
+            <h4>Finding high-impact ideas</h4>
+            <ol class="steps">
+              <li>Watch recurring search queries and setup bottlenecks.</li>
+              <li>Scan framework issue trackers for high-engagement requests that stay unaddressed.</li>
+              <li>Turn your own tedious config into a public starter kit.</li>
+            </ol>
+            <p class="muted-note">Tier thresholds: see <a href="index.html#starstruck">Starstruck in the catalog</a>.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="guide-closing">
+          <h2>Keep building in public</h2>
+          <p>Legitimate badges follow from useful repos, clear PRs, real collaboration, and patience with tiers.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="index.html#active">Back to the catalog</a>
+            <a class="btn btn-ghost" href="https://github.com/christianalberto/github-profile-achievements/blob/main/FAST_GUIDE.md" target="_blank" rel="noopener">Markdown version</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-main">
+        <p class="footer-credit">
+          Maintained by
+          <a href="https://github.com/christianalberto" target="_blank" rel="noopener">@christianalberto</a>
+          ·
+          <a href="https://github.com/christianalberto/github-profile-achievements" target="_blank" rel="noopener">github-profile-achievements</a>
+        </p>
+        <p class="footer-disclaimer">
+          <strong>Unofficial.</strong> Not affiliated with GitHub. Badge artwork belongs to GitHub, Inc.
+          Thresholds are community-reported.
+        </p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Catalog</a>
+        <a href="guide.html">Guide</a>
+        <a href="https://github.com/christianalberto/github-profile-achievements" target="_blank" rel="noopener">Source repo</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
