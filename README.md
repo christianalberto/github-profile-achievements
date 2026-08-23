@@ -36,6 +36,9 @@ Achievements appear in the sidebar of a GitHub profile. GitHub does not publish 
 
 > This feature is in [public preview](https://docs.github.com/en/account-and-profile/reference/profile-reference#earning-achievements) and can change. Thresholds below are community-verified.
 
+> [!IMPORTANT]
+> GitHub is investigating a profile-rendering incident that can prevent achievement badges from appearing after qualifying activity. Follow [GitHub Community discussion #203416](https://github.com/orgs/community/discussions/203416) for status updates. Last checked: 23 August 2026.
+
 The catalog is split by status: **[active](#active)** (you can still earn them), **[GitHub staff](#github-staff)** (internal only), **[retired](#retired)** (Arctic, Mars — they stay on profiles but nobody new can unlock them), and **[unreleased](#unreleased)** (seen in experiments; GitHub has not said if or when they ship).
 
 ## How it works
