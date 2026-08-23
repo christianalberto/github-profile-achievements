@@ -491,20 +491,20 @@ Live examples of each badge at 100%. **One profile per badge** — no repeats. E
 <tr>
 <td align="center" width="50%">
 <strong>Pair Extraordinaire</strong><br>
-<a href="https://github.com/DenverCoder1?achievement=pair-extraordinaire&tab=achievements"><img src="media/badges/pair-extraordinaire.png" width="80" height="80" alt="Pair Extraordinaire"></a><br>
-<a href="https://github.com/DenverCoder1?achievement=pair-extraordinaire&tab=achievements">@DenverCoder1</a>
+<a href="https://github.com/tpope?achievement=pair-extraordinaire&tab=achievements"><img src="media/badges/pair-extraordinaire.png" width="80" height="80" alt="Pair Extraordinaire"></a><br>
+<a href="https://github.com/tpope?achievement=pair-extraordinaire&tab=achievements">@tpope</a>
 </td>
 <td align="center" width="50%">
 <strong>Quickdraw</strong><br>
-<a href="https://github.com/anuraghazra?tab=achievements&achievement=quickdraw"><img src="media/badges/quickdraw.png" width="80" height="80" alt="Quickdraw"></a><br>
-<a href="https://github.com/anuraghazra?tab=achievements&achievement=quickdraw">@anuraghazra</a>
+<a href="https://github.com/Seldaek?tab=achievements&achievement=quickdraw"><img src="media/badges/quickdraw.png" width="80" height="80" alt="Quickdraw"></a><br>
+<a href="https://github.com/Seldaek?tab=achievements&achievement=quickdraw">@Seldaek</a>
 </td>
 </tr>
 <tr>
 <td align="center">
 <strong>Starstruck</strong><br>
-<a href="https://github.com/anuraghazra?achievement=starstruck&tab=achievements"><img src="media/badges/starstruck.png" width="80" height="80" alt="Starstruck"></a><br>
-<a href="https://github.com/anuraghazra?achievement=starstruck&tab=achievements">@anuraghazra</a>
+<a href="https://github.com/DenverCoder1?achievement=starstruck&tab=achievements"><img src="media/badges/starstruck.png" width="80" height="80" alt="Starstruck"></a><br>
+<a href="https://github.com/DenverCoder1?achievement=starstruck&tab=achievements">@DenverCoder1</a>
 </td>
 <td align="center">
 <strong>Galaxy Brain</strong><br>
@@ -533,7 +533,7 @@ Live examples of each badge at 100%. **One profile per badge** — no repeats. E
 <td align="center">
 <strong>Arctic Code Vault</strong><br>
 <a href="https://github.com/ryo-ma?tab=achievements&achievement=arctic-code-vault-contributor"><img src="media/badges/arctic-code-vault.png" width="80" height="80" alt="Arctic Code Vault"></a><br>
-<a href="https://github.com/ryo-ma?tab=achievements&achievement=arctic-code-vault-contributor">@ryo-ma</a>
+<a href="https://github.com/martinwoodward?tab=achievements&achievement=arctic-code-vault-contributor">@martinwoodward</a>
 </td>
 </tr>
 <tr>
