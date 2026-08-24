@@ -536,7 +536,7 @@ Live examples of each badge at 100%. **One profile per badge** — no repeats. E
 </td>
 <td align="center">
 <strong>Arctic Code Vault</strong><br>
-<a href="https://github.com/ryo-ma?tab=achievements&achievement=arctic-code-vault-contributor"><img src="media/badges/arctic-code-vault.png" width="80" height="80" alt="Arctic Code Vault"></a><br>
+<a href="https://github.com/martinwoodward?tab=achievements&achievement=arctic-code-vault-contributor"><img src="media/badges/arctic-code-vault.png" width="80" height="80" alt="Arctic Code Vault"></a><br>
 <a href="https://github.com/martinwoodward?tab=achievements&achievement=arctic-code-vault-contributor">@martinwoodward</a>
 </td>
 </tr>
