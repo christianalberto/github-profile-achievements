@@ -966,10 +966,12 @@ code {
 .steps li {
   counter-increment: step;
   position: relative;
+  min-width: 0;
   padding: 14px 16px 14px 56px;
   border-radius: 14px;
   border: 1px solid var(--border);
   background: var(--bg-panel);
+  overflow-wrap: break-word;
 }
 
 .steps li::before {
@@ -1373,7 +1375,7 @@ details.panel summary {
 
 .achievement-panel {
   display: grid;
-  grid-template-columns: 160px 1fr;
+  grid-template-columns: 160px minmax(0, 1fr);
   gap: 28px;
   align-items: start;
   margin: 0 0 20px;
@@ -1382,6 +1384,12 @@ details.panel summary {
   border: 1px solid var(--border);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent 40%), var(--bg-card);
   scroll-margin-top: calc(var(--nav-h) + 16px);
+  min-width: 0;
+}
+
+.achievement-panel__body {
+  min-width: 0;
+  overflow-wrap: break-word;
 }
 
 .achievement-panel__media {
@@ -1428,6 +1436,7 @@ details.panel summary {
 
 .code-block {
   display: block;
+  max-width: 100%;
   margin: 10px 0 0;
   padding: 12px 14px;
   overflow-x: auto;
@@ -1438,6 +1447,9 @@ details.panel summary {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 0.85rem;
   line-height: 1.45;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .guide-closing {
@@ -1474,14 +1486,29 @@ details.panel summary {
   }
 
   .achievement-panel {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 16px;
-    padding: 22px;
+    padding: 18px;
   }
 
   .achievement-panel__media img {
     width: 110px;
     height: 110px;
+  }
+
+  .steps li {
+    padding: 12px 12px 12px 48px;
+  }
+
+  .steps li::before {
+    left: 10px;
+    width: 26px;
+    height: 26px;
+  }
+
+  .code-block {
+    font-size: 0.78rem;
+    padding: 10px 12px;
   }
 
   .guide-block {
