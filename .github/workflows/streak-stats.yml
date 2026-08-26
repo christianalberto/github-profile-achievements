@@ -15,13 +15,13 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Generate streak stats
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
           # christianalberto = dueño del repo
-          options: user=christianalberto&theme=default&disable_animations=true&locale=es
+          options: user=christianalberto&theme=tokyonight&hide_border=true&disable_animations=true&locale=en
           path: profile/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
