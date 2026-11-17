@@ -136,7 +136,7 @@ Earnable on a normal account today. Galaxy Brain is limited: it still works in *
 <tr>
 <td align="center"><img src="media/badges/finishing-touch.png" width="80" height="80" alt="Finishing Touch"></td>
 <td><strong>Finishing Touch</strong></td>
-<td>Author a merged pull request that GitHub counts as improving <strong>GitHub’s own UI quality</strong>. The unlock dialog names the 1st, 4th, 16th, and 32nd. Suggested Changes on an ordinary review do not match that wording. Public sample: <a href="https://github.com/dylanatsmith?achievement=finishing-touch&tab=achievements">@dylanatsmith</a> (Gold; history links are private).</td>
+<td>Author a merged pull request that improves GitHub’s UI quality</td>
 <td align="center">1</td>
 <td align="center">4</td>
 <td align="center">16</td>

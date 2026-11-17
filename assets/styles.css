@@ -390,7 +390,7 @@ code {
 
 .badge-orbit {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 14px;
 }
 
@@ -1150,7 +1150,7 @@ details.panel summary {
   }
 
   .badge-orbit {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 8px;
   }
 
