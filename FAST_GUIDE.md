@@ -16,6 +16,7 @@
   <img src="media/badges/public-sponsor.png" width="72" height="72" alt="Public Sponsor">
   <img src="media/badges/pull-shark.png" width="72" height="72" alt="Pull Shark">
   <img src="media/badges/starstruck.png" width="72" height="72" alt="Starstruck">
+  <img src="media/badges/finishing-touch.png" width="72" height="72" alt="Finishing Touch">
 </p>
 
 </div>
@@ -27,7 +28,7 @@ An honest playbook for earning every **active** achievement through real work �
 | Jump to | |
 | --- | --- |
 | Mindset | [The core dilemma](#the-core-dilemma) · [Dishonest shortcuts](#dishonest-shortcuts) · [The right way](#the-right-way-to-progress) · [How tiers display](#understanding-badge-tier-visualizations) |
-| Achievements | [Quickdraw](#quickdraw) · [Galaxy Brain](#galaxy-brain) · [YOLO](#yolo) · [Pair Extraordinaire](#pair-extraordinaire) · [Public Sponsor](#public-sponsor) · [Pull Shark](#pull-shark) · [Starstruck](#starstruck) |
+| Achievements | [Quickdraw](#quickdraw) · [Galaxy Brain](#galaxy-brain) · [YOLO](#yolo) · [Pair Extraordinaire](#pair-extraordinaire) · [Public Sponsor](#public-sponsor) · [Pull Shark](#pull-shark) · [Starstruck](#starstruck) · [Finishing Touch](#finishing-touch) |
 
 ---
 
@@ -301,6 +302,26 @@ Pay attention to recurring friction:
 Deliver a clean solution, write a thorough README, and put it in front of developers who feel the same pain.
 
 Tier thresholds: see [Starstruck tiers](README.md#starstruck).
+
+---
+
+## Finishing Touch
+
+<div align="center">
+  <img src="media/badges/finishing-touch.png" width="140" height="140" alt="Finishing Touch">
+</div>
+
+> Author a merged pull request that GitHub counts as improving **GitHub’s own UI quality**.
+
+GitHub’s unlock dialog names four milestones: the **1st**, **4th**, **16th**, and **32nd** UI quality pull request. That is the official wording on [@dylanatsmith](https://github.com/dylanatsmith?achievement=finishing-touch&tab=achievements) (Gold, first unlocked 27 Jan 2025). The history links on that profile are private.
+
+Accepting a Suggested Change in an ordinary code review is a different product feature. It does not appear in this dialog.
+
+GitHub has not published which repositories qualify. The known public Gold holder works on GitHub’s design system, and the counted pull requests are not visible from outside. There is no honest grind on a personal repository.
+
+> ⚠️ **Do not chase it.** Opening drive-by pull requests against GitHub projects will not give you a checklist, and it creates review noise for maintainers.
+
+Tier thresholds: see [Finishing Touch tiers](README.md#finishing-touch).
 
 ---
 

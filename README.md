@@ -16,6 +16,7 @@
   <img src="media/badges/pull-shark.png" width="80" height="80" alt="Pull Shark">
   <img src="media/badges/yolo.png" width="80" height="80" alt="YOLO">
   <img src="media/badges/public-sponsor.png" width="80" height="80" alt="Public Sponsor">
+  <img src="media/badges/finishing-touch.png" width="80" height="80" alt="Finishing Touch">
 </p>
 
 <p>
@@ -54,7 +55,7 @@ The catalog is split by status: **[active](#active)** (you can still earn them),
 
 ## Active
 
-Earnable on a normal account today. Galaxy Brain is limited: it still works in **repository** Discussions, not in GitHub Community.
+Earnable on a normal account today. Galaxy Brain is limited: it still works in **repository** Discussions, not in GitHub Community. Finishing Touch only counts pull requests GitHub classifies as improving its own UI.
 
 <table>
 <thead>
@@ -131,6 +132,15 @@ Earnable on a normal account today. Galaxy Brain is limited: it still works in *
 <td align="center">—</td>
 <td align="center">—</td>
 <td align="center">—</td>
+</tr>
+<tr>
+<td align="center"><img src="media/badges/finishing-touch.png" width="80" height="80" alt="Finishing Touch"></td>
+<td><strong>Finishing Touch</strong></td>
+<td>Author a merged pull request that GitHub counts as improving <strong>GitHub’s own UI quality</strong>. The unlock dialog names the 1st, 4th, 16th, and 32nd. Suggested Changes on an ordinary review do not match that wording. Public sample: <a href="https://github.com/dylanatsmith?achievement=finishing-touch&tab=achievements">@dylanatsmith</a> (Gold; history links are private).</td>
+<td align="center">1</td>
+<td align="center">4</td>
+<td align="center">16</td>
+<td align="center">32</td>
 </tr>
 </tbody>
 </table>
@@ -362,6 +372,29 @@ Merged pull requests.
 </tbody>
 </table>
 
+### Finishing Touch
+
+Merged pull requests GitHub counts as improving its own UI quality. Confirmed from the unlock dialog on [@dylanatsmith](https://github.com/dylanatsmith?achievement=finishing-touch&tab=achievements) (Gold, first unlocked 27 Jan 2025). Those history rows are marked inaccessible.
+
+<table>
+<thead>
+<tr>
+<th align="center">Default · 1</th>
+<th align="center">Bronze · 4</th>
+<th align="center">Silver · 16</th>
+<th align="center">Gold · 32</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><img src="media/badges/finishing-touch.png" width="80" height="80" alt="Finishing Touch"></td>
+<td align="center"><img src="media/badges/finishing-touch-bronze.png" width="80" height="80" alt="Finishing Touch bronze"></td>
+<td align="center"><img src="media/badges/finishing-touch-silver.png" width="80" height="80" alt="Finishing Touch silver"></td>
+<td align="center"><img src="media/badges/finishing-touch-gold.png" width="80" height="80" alt="Finishing Touch gold"></td>
+</tr>
+</tbody>
+</table>
+
 ### Heart On Your Sleeve — unreleased
 
 Heart reactions. Experimental; GitHub has not announced a public launch.
@@ -535,29 +568,36 @@ Live examples of each badge at 100%. **One profile per badge** — no repeats. E
 <a href="https://github.com/christianalberto?achievement=public-sponsor&tab=achievements">@christianalberto</a>
 </td>
 <td align="center">
+<strong>Finishing Touch</strong><br>
+<a href="https://github.com/dylanatsmith?achievement=finishing-touch&tab=achievements"><img src="media/badges/finishing-touch.png" width="80" height="80" alt="Finishing Touch"></a><br>
+<a href="https://github.com/dylanatsmith?achievement=finishing-touch&tab=achievements">@dylanatsmith</a>
+</td>
+</tr>
+<tr>
+<td align="center">
 <strong>Arctic Code Vault</strong><br>
 <a href="https://github.com/martinwoodward?tab=achievements&achievement=arctic-code-vault-contributor"><img src="media/badges/arctic-code-vault.png" width="80" height="80" alt="Arctic Code Vault"></a><br>
 <a href="https://github.com/martinwoodward?tab=achievements&achievement=arctic-code-vault-contributor">@martinwoodward</a>
 </td>
-</tr>
-<tr>
 <td align="center">
 <strong>Mars 2020 Contributor</strong><br>
 <a href="https://github.com/torvalds?achievement=mars-2020-contributor&tab=achievements"><img src="media/badges/mars-2020.png" width="80" height="80" alt="Mars 2020"></a><br>
 <a href="https://github.com/torvalds?achievement=mars-2020-contributor&tab=achievements">@torvalds</a>
 </td>
+</tr>
+<tr>
 <td align="center">
 <strong>Proxima Pioneer</strong> · internal<br>
 <a href="https://github.com/brannon?achievement=proxima-pioneer&tab=achievements"><img src="media/badges/proxima-pioneer.png" width="80" height="80" alt="Proxima Pioneer"></a><br>
 <a href="https://github.com/brannon?achievement=proxima-pioneer&tab=achievements">@brannon</a>
 </td>
-</tr>
-<tr>
 <td align="center">
 <strong>Proxima Staffshipper</strong> · internal<br>
 <a href="https://github.com/brannon?achievement=proxima-staffshipper&tab=achievements"><img src="media/badges/proxima-staffshipper.png" width="80" height="80" alt="Proxima Staffshipper"></a><br>
 <a href="https://github.com/brannon?achievement=proxima-staffshipper&tab=achievements">@brannon</a><br>
 </td>
+</tr>
+<tr>
 <td align="center">
 <strong>Proxima Staffuser</strong> · internal<br>
 <a href="https://github.com/timrogers?achievement=proxima-staffuser&tab=achievements"><img src="media/badges/proxima-staffuser.png" width="80" height="80" alt="Proxima Staffuser"></a><br>
@@ -570,7 +610,7 @@ Live examples of each badge at 100%. **One profile per badge** — no repeats. E
 
 Want the badges without the spam? This companion guide is an honest playbook for unlocking every **active** achievement through real contributions — personal open-source work, legitimate collaboration, Discussions that actually help people, and sponsorship that supports maintainers you rely on. No empty PRs, no puppet accounts, no gaming recruiters.
 
-It covers the work-vs-personal-profile dilemma, why fake progress backfires, how tier multipliers really display, and a clean path for each badge (Quickdraw, Galaxy Brain, YOLO, Pair Extraordinaire, Public Sponsor, Pull Shark, Starstruck).
+It covers the work-vs-personal-profile dilemma, why fake progress backfires, how tier multipliers really display, and a clean path for each badge (Quickdraw, Galaxy Brain, YOLO, Pair Extraordinaire, Public Sponsor, Pull Shark, Starstruck, Finishing Touch).
 
 **[Read the full guide →](FAST_GUIDE.md)**
 
