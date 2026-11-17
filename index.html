@@ -150,27 +150,33 @@
           </div>
         </div>
 
-        <div class="hero-showcase" aria-hidden="true">
+        <div class="hero-showcase">
           <div class="badge-orbit">
-            <img src="media/badges/pair-extraordinaire.png" alt="" />
-            <img src="media/badges/quickdraw.png" alt="" />
-            <img src="media/badges/starstruck.png" alt="" />
-            <img src="media/badges/galaxy-brain.png" alt="" />
-            <img src="media/badges/pull-shark.png" alt="" />
-            <img src="media/badges/yolo.png" alt="" />
-            <img src="media/badges/public-sponsor.png" alt="" />
-            <img src="media/badges/finishing-touch.png" alt="" />
-            <img src="media/badges/arctic-code-vault.png" alt="" />
-            <img src="media/badges/mars-2020.png" alt="" />
-            <img src="media/badges/proxima-pioneer.png" alt="" />
-            <img src="media/badges/proxima-staffshipper.png" alt="" />
-            <img src="media/badges/proxima-staffuser.png" alt="" />
-            <img src="media/badges/heart-on-your-sleeve.png" alt="" />
-            <img src="media/badges/open-sourcerer.png" alt="" />
+            <button type="button" class="badge-hit" aria-label="Pair Extraordinaire" data-tip-title="Pair Extraordinaire" data-tip-kind="active" data-tip-status="Active" data-tip-body="Coauthored commits on a merged pull request."><img src="media/badges/pair-extraordinaire.png" alt="" /></button>
+            <button type="button" class="badge-hit" aria-label="Quickdraw" data-tip-title="Quickdraw" data-tip-kind="active" data-tip-status="Active" data-tip-body="Close an issue or pull request within 5 minutes."><img src="media/badges/quickdraw.png" alt="" /></button>
+            <button type="button" class="badge-hit" aria-label="Starstruck" data-tip-title="Starstruck" data-tip-kind="active" data-tip-status="Active" data-tip-body="Create a repository that reaches the star tiers."><img src="media/badges/starstruck.png" alt="" /></button>
+            <button type="button" class="badge-hit" aria-label="Galaxy Brain" data-tip-title="Galaxy Brain" data-tip-kind="active" data-tip-status="Active" data-tip-body="Have a Discussions reply marked as the answer."><img src="media/badges/galaxy-brain.png" alt="" /></button>
+            <button type="button" class="badge-hit" aria-label="Pull Shark" data-tip-title="Pull Shark" data-tip-kind="active" data-tip-status="Active" data-tip-body="Open a pull request that gets merged."><img src="media/badges/pull-shark.png" alt="" /></button>
+            <button type="button" class="badge-hit" aria-label="YOLO" data-tip-title="YOLO" data-tip-kind="active" data-tip-status="Active" data-tip-body="Merge your own pull request with no review."><img src="media/badges/yolo.png" alt="" /></button>
+            <button type="button" class="badge-hit" aria-label="Public Sponsor" data-tip-title="Public Sponsor" data-tip-kind="active" data-tip-status="Active" data-tip-body="Sponsor an open source contributor."><img src="media/badges/public-sponsor.png" alt="" /></button>
+            <button type="button" class="badge-hit" aria-label="Finishing Touch" data-tip-title="Finishing Touch" data-tip-kind="active" data-tip-status="Active" data-tip-body="Author a merged pull request that improves GitHub’s UI quality."><img src="media/badges/finishing-touch.png" alt="" /></button>
+            <button type="button" class="badge-hit" aria-label="Arctic Code Vault Contributor" data-tip-title="Arctic Code Vault" data-tip-kind="retired" data-tip-status="Retired" data-tip-body="Contributed to a repo in the 2020 Archive Program."><img src="media/badges/arctic-code-vault.png" alt="" /></button>
+            <button type="button" class="badge-hit" aria-label="Mars 2020 Contributor" data-tip-title="Mars 2020" data-tip-kind="retired" data-tip-status="Retired" data-tip-body="A commit on software used by the Ingenuity helicopter."><img src="media/badges/mars-2020.png" alt="" /></button>
+            <button type="button" class="badge-hit" aria-label="Proxima Pioneer" data-tip-title="Proxima Pioneer" data-tip-kind="staff" data-tip-status="Staff" data-tip-body="Internal. Contributed to the Proxima proof of concept."><img src="media/badges/proxima-pioneer.png" alt="" /></button>
+            <button type="button" class="badge-hit" aria-label="Proxima Staffshipper" data-tip-title="Proxima Staffshipper" data-tip-kind="staff" data-tip-status="Staff" data-tip-body="Internal. Shipped a Proxima Staffship instance."><img src="media/badges/proxima-staffshipper.png" alt="" /></button>
+            <button type="button" class="badge-hit" aria-label="Proxima Staffuser" data-tip-title="Proxima Staffuser" data-tip-kind="staff" data-tip-status="Staff" data-tip-body="Internal. Team onboarded to Proxima."><img src="media/badges/proxima-staffuser.png" alt="" /></button>
+            <button type="button" class="badge-hit" aria-label="Heart On Your Sleeve" data-tip-title="Heart On Your Sleeve" data-tip-kind="unreleased" data-tip-status="Unreleased" data-tip-body="Heart reactions. Experimental, not publicly earnable."><img src="media/badges/heart-on-your-sleeve.png" alt="" /></button>
+            <button type="button" class="badge-hit" aria-label="Open Sourcerer" data-tip-title="Open Sourcerer" data-tip-kind="unreleased" data-tip-status="Unreleased" data-tip-body="Pull requests merged across public repositories. Experimental."><img src="media/badges/open-sourcerer.png" alt="" /></button>
           </div>
         </div>
       </div>
     </section>
+
+    <div id="badge-tooltip" class="badge-tooltip" role="tooltip" hidden>
+      <p class="badge-tooltip__status"></p>
+      <p class="badge-tooltip__title"></p>
+      <p class="badge-tooltip__body"></p>
+    </div>
 
     <div class="container">
       <p class="notice">
